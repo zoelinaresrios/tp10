@@ -82,7 +82,7 @@ Instalación y Ejecución
  1️ Clonar repositorio
 
 
-git clone 
+git clone  https://github.com/zoelinaresrios/tp10
 
 
 2️ Abrir en Visual Studio Code
