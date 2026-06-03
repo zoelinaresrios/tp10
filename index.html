@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de Reportes</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="formulario">
+
+<h2>📄 Generador de Reportes</h2>
+
+<label>Nombre del Operador</label>
+<input type="text" id="inputNombre">
+
+<label>Detalle del Registro</label>
+<input type="text" id="inputDetalle">
+
+<button onclick="descargarReporte()">
+Generar PDF
+</button>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/principal.js"></script>
+
+</body>
+</html>
